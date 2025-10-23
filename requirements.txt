@@ -1,0 +1,6 @@
+#Python==3.12.3
+langchain==1.0.1
+langchain-core 
+langchain-community 
+langchain-huggingface
+transformers==4.57.1

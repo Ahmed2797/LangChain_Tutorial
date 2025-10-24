@@ -1,7 +1,7 @@
 from langchain_core.prompts import ChatPromptTemplate,PromptTemplate
 from langchain_huggingface import ChatHuggingFace,HuggingFaceEndpoint
 from langchain_core.output_parsers import StrOutputParser,PydanticOutputParser
-from langchain_core.output_parsers import StructuredOutputParser, ResponseSchema
+from langchain_classic.output_parsers import StructuredOutputParser, ResponseSchema
 from langchain_core.runnables import RunnableParallel,RunnableBranch,RunnableLambda
 from pydantic import Field,BaseModel 
 from typing import Literal

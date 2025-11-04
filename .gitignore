@@ -1,3 +1,4 @@
 .env
 *.env 
-lc/
+lc/ 
+ptc.py
